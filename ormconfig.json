@@ -1,0 +1,11 @@
+{
+    "type":"sqlite",
+    "database":"./src/database/db_nlw5.sqlite",
+    "synchronize": false,
+    "logging": true,
+    "migrations": ["src/database/migrations/**/*.ts"],
+    "entities": ["./src/entities/**/*.ts"],
+    "cli": {
+        "migrationsDir": "src/database/migrations"
+    }
+}
